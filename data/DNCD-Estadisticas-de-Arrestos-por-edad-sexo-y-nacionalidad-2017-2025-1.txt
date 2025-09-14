@@ -1,0 +1,409 @@
+Arrestados segun edad sexo y nacionalidad	Cantidad	Mes	Año	
+Edad 1 a 17	179	Enero a Marzo	2017	
+Edad 18 a 25	1723	Enero a Marzo	2017	
+Edad 26 a 30	1119	Enero a Marzo	2017	
+Edad 31 a 35	937	Enero a Marzo	2017	
+Edad 36 a 40	670	Enero a Marzo	2017	
+Edad 41 a 45	467	Enero a Marzo	2017	
+Edad 46 a 50	286	Enero a Marzo	2017	
+Edad 51 a mas	225	Enero a Marzo	2017	
+Hombres 	5495	Enero a Marzo	2017	
+Mujeres	111	Enero a Marzo	2017	
+Dominicanos	5738	Enero a Marzo	2017	
+Extranjeros	398	Enero a Marzo	2017	
+Edad 1 a 17	145	Abril a Junio	2017	
+Edad 18 a 25	1433	Abril a Junio	2017	
+Edad 26 a 30	1088	Abril a Junio	2017	
+Edad 31 a 35	896	Abril a Junio	2017	
+Edad 36 a 40	711	Abril a Junio	2017	
+Edad 41 a 45	474	Abril a Junio	2017	
+Edad 46 a 50	297	Abril a Junio	2017	
+Edad 51 a mas	274	Abril a Junio	2017	
+Hombres 	5201	Abril a Junio	2017	
+Mujeres	117	Abril a Junio	2017	
+Dominicanos	5298	Abril a Junio	2017	
+Extranjeros	377	Abril a Junio	2017	
+Edad 1 a 17	108	Julio a Septiembre	2017	
+Edad 18 a 25	1405	Julio a Septiembre	2017	
+Edad 26 a 30	1027	Julio a Septiembre	2017	
+Edad 31 a 35	833	Julio a Septiembre	2017	
+Edad 36 a 40	597	Julio a Septiembre	2017	
+Edad 41 a 45	397	Julio a Septiembre	2017	
+Edad 46 a 50	257	Julio a Septiembre	2017	
+Edad 51 a mas	194	Julio a Septiembre	2017	
+Hombres 	4747	Julio a Septiembre	2017	
+Mujeres	73	Julio a Septiembre	2017	
+Dominicanos	4808	Julio a Septiembre	2017	
+Extranjeros	502	Julio a Septiembre	2017	
+Edad 1 a 17	125	Octubre a Diciembre	2017	
+Edad 18 a 25	1263	Octubre a Diciembre	2017	
+Edad 26 a 30	943	Octubre a Diciembre	2017	
+Edad 31 a 35	698	Octubre a Diciembre	2017	
+Edad 36 a 40	546	Octubre a Diciembre	2017	
+Edad 41 a 45	358	Octubre a Diciembre	2017	
+Edad 46 a 50	226	Octubre a Diciembre	2017	
+Edad 51 a mas	167	Octubre a Diciembre	2017	
+Hombres 	4207	Octubre a Diciembre	2017	
+Mujeres	69	Octubre a Diciembre	2017	
+Dominicanos	4129	Octubre a Diciembre	2017	
+Extranjeros	486	Octubre a Diciembre	2017	
+Edad 1 a 17	110	Enero a Marzo	2018	
+Edad 18 a 25	1278	Enero a Marzo	2018	
+Edad 26 a 30	548	Enero a Marzo	2018	
+Edad 31 a 35	756	Enero a Marzo	2018	
+Edad 36 a 40	591	Enero a Marzo	2018	
+Edad 41 a 45	240	Enero a Marzo	2018	
+Edad 46 a 50	192	Enero a Marzo	2018	
+Edad 51 a mas	200	Enero a Marzo	2018	
+Hombres 	3865	Enero a Marzo	2018	
+Mujeres	50	Enero a Marzo	2018	
+Dominicanos	4276	Enero a Marzo	2018	
+Extranjeros	238	Enero a Marzo	2018	
+Edad 1 a 17	80	Abril a Junio	2018	
+Edad 18 a 25	1092	Abril a Junio	2018	
+Edad 26 a 30	875	Abril a Junio	2018	
+Edad 31 a 35	548	Abril a Junio	2018	
+Edad 36 a 40	646	Abril a Junio	2018	
+Edad 41 a 45	484	Abril a Junio	2018	
+Edad 46 a 50	233	Abril a Junio	2018	
+Edad 51 a mas	190	Abril a Junio	2018	
+Hombres 	4101	Abril a Junio	2018	
+Mujeres	47	Abril a Junio	2018	
+Dominicanos	4392	Abril a Junio	2018	
+Extranjeros	228	Abril a Junio	2018	
+Edad 1 a 17	140	Julio a Septiembre	2018	
+Edad 18 a 25	1340	Julio a Septiembre	2018	
+Edad 26 a 30	975	Julio a Septiembre	2018	
+Edad 31 a 35	893	Julio a Septiembre	2018	
+Edad 36 a 40	497	Julio a Septiembre	2018	
+Edad 41 a 45	251	Julio a Septiembre	2018	
+Edad 46 a 50	279	Julio a Septiembre	2018	
+Edad 51 a mas	184	Julio a Septiembre	2018	
+Hombres 	4497	Julio a Septiembre	2018	
+Mujeres	62	Julio a Septiembre	2018	
+Dominicanos	4033	Julio a Septiembre	2018	
+Extranjeros	209	Julio a Septiembre	2018	
+Edad 1 a 17	110	Octubre a Diciembre	2018	
+Edad 18 a 25	1385	Octubre a Diciembre	2018	
+Edad 26 a 30	987	Octubre a Diciembre	2018	
+Edad 31 a 35	820	Octubre a Diciembre	2018	
+Edad 36 a 40	631	Octubre a Diciembre	2018	
+Edad 41 a 45	540	Octubre a Diciembre	2018	
+Edad 46 a 50	356	Octubre a Diciembre	2018	
+Edad 51 a mas	418	Octubre a Diciembre	2018	
+Hombres 	5194	Octubre a Diembre	2018	
+Mujeres	53	Octubre a Diembre	2018	
+Dominicanos	3656	Octubre a Diciembre	2018	
+Extranjeros	201	Octubre a Diciembre	2018	
+Edad 1 a 17	125	Enero a Marzo	2019	
+Edad 18 a 25	1493	Enero a Marzo	2019	
+Edad 26 a 30	955	Enero a Marzo	2019	
+Edad 31 a 35	759	Enero a Marzo	2019	
+Edad 36 a 40	675	Enero a Marzo	2019	
+Edad 41 a 45	480	Enero a Marzo	2019	
+Edad 46 a 50	288	Enero a Marzo	2019	
+Edad 51 a mas	870	Enero a Marzo	2019	
+Hombres 	5565	Enero a Marzo	2019	
+Mujeres	116	Enero a Marzo	2019	
+Dominicanos	5347	Enero a Marzo	2019	
+Extranjeros	334	Enero a Marzo	2019	
+Edad 1 a 17	142	Abril a Junio	2019	
+Edad 18 a 25	1381	Abril a Junio	2019	
+Edad 26 a 30	892	Abril a Junio	2019	
+Edad 31 a 35	736	Abril a Junio	2019	
+Edad 36 a 40	633	Abril a Junio	2019	
+Edad 41 a 45	423	Abril a Junio	2019	
+Edad 46 a 50	234	Abril a Junio	2019	
+Edad 51 a mas	669	Abril a Junio	2019	
+Hombres 	4984	Abril a Junio	2019	
+Mujeres	87	Abril a Junio	2019	
+Dominicanos	4766	Abril a Junio	2019	
+Extranjeros	305	Abril a Junio	2019	
+Edad 1 a 17	64	Julio a Septiembre	2019	
+Edad 18 a 25	758	Julio a Septiembre	2019	
+Edad 26 a 30	471	Julio a Septiembre	2019	
+Edad 31 a 35	415	Julio a Septiembre	2019	
+Edad 36 a 40	294	Julio a Septiembre	2019	
+Edad 41 a 45	212	Julio a Septiembre	2019	
+Edad 46 a 50	191	Julio a Septiembre	2019	
+Edad 51 a mas	263	Julio a Septiembre	2019	
+Hombres 	2625	Julio a Septiembre	2019	
+Mujeres	43	Julio a Septiembre	2019	
+Dominicanos	2548	Julio a Septiembre	2019	
+Extranjeros	120	Julio a Septiembre	2019	
+Edad 1 a 17	57	Octubre a Diciembre	2019	
+Edad 18 a 25	783	Octubre a Diciembre	2019	
+Edad 26 a 30	524	Octubre a Diciembre	2019	
+Edad 31 a 35	449	Octubre a Diciembre	2019	
+Edad 36 a 40	378	Octubre a Diciembre	2019	
+Edad 41 a 45	252	Octubre a Diciembre	2019	
+Edad 46 a 50	185	Octubre a Diciembre	2019	
+Edad 51 a mas	360	Octubre a Diciembre	2019	
+Hombres 	2944	Octubre a Diembre	2019	
+Mujeres	44	Octubre a Diembre	2019	
+Dominicanos	2802	Octubre a Diciembre	2019	
+Extranjeros	186	Octubre a Diciembre	2019	
+Edad 1 a 17	38	Enero a Marzo	2020	
+Edad 18 a 25	610	Enero a Marzo	2020	
+Edad 26 a 30	388	Enero a Marzo	2020	
+Edad 31 a 35	366	Enero a Marzo	2020	
+Edad 36 a 40	311	Enero a Marzo	2020	
+Edad 41 a 45	197	Enero a Marzo	2020	
+Edad 46 a 50	155	Enero a Marzo	2020	
+Edad 51 a mas	410	Enero a Marzo	2020	
+Hombres 	2431	Enero a Marzo	2020	
+Mujeres	44	Enero a Marzo	2020	
+Dominicanos	2247	Enero a Marzo	2020	
+Extranjeros	228	Enero a Marzo	2020	
+Edad 1 a 17	29	Abril a Junio	2020	
+Edad 18 a 25	427	Abril a Junio	2020	
+Edad 26 a 30	282	Abril a Junio	2020	
+Edad 31 a 35	222	Abril a Junio	2020	
+Edad 36 a 40	176	Abril a Junio	2020	
+Edad 41 a 45	113	Abril a Junio	2020	
+Edad 46 a 50	86	Abril a Junio	2020	
+Edad 51 a mas	198	Abril a Junio	2020	
+Hombres 	1514	Abril a Junio	2020	
+Mujeres	19	Abril a Junio	2020	
+Dominicanos	1468	Abril a Junio	2020	
+Extranjeros	65	Abril a Junio	2020	
+Edad 1 a 17	36	Julio a Septiembre	2020	
+Edad 18 a 25	653	Julio a Septiembre	2020	
+Edad 26 a 30	399	Julio a Septiembre	2020	
+Edad 31 a 35	340	Julio a Septiembre	2020	
+Edad 36 a 40	284	Julio a Septiembre	2020	
+Edad 41 a 45	200	Julio a Septiembre	2020	
+Edad 46 a 50	112	Julio a Septiembre	2020	
+Edad 51 a mas	345	Julio a Septiembre	2020	
+Hombres 	2335	Julio a Septiembre	2020	
+Mujeres	34	Julio a Septiembre	2020	
+Dominicanos	2241	Julio a Septiembre	2020	
+Extranjeros	128	Julio a Septiembre	2020	
+Edad 1 a 17	35	Octubre a Diciembre	2020	
+Edad 18 a 25	712	Octubre a Diciembre	2020	
+Edad 26 a 30	456	Octubre a Diciembre	2020	
+Edad 31 a 35	377	Octubre a Diciembre	2020	
+Edad 36 a 40	327	Octubre a Diciembre	2020	
+Edad 41 a 45	227	Octubre a Diciembre	2020	
+Edad 46 a 50	161	Octubre a Diciembre	2020	
+Edad 51 a mas	1069	Octubre a Diciembre	2020	
+Hombres 	3313	Octubre a Diciembre	2020	
+Mujeres	51	Octubre a Diciembre	2020	
+Dominicanos	3161	Octubre a Diciembre	2020	
+Extranjeros	203	Octubre a Diciembre	2020	
+Edad 1 a 17	52	Enero a Marzo	2021	
+Edad 18 a 25	1058	Enero a Marzo	2021	
+Edad 26 a 30	791	Enero a Marzo	2021	
+Edad 31 a 35	654	Enero a Marzo	2021	
+Edad 36 a 40	483	Enero a Marzo	2021	
+Edad 41 a 45	390	Enero a Marzo	2021	
+Edad 46 a 50	295	Enero a Marzo	2021	
+Edad 51 a mas	888	Enero a Marzo	2021	
+Hombres 	4543	Enero a Marzo	2021	
+Mujeres	68	Enero a Marzo	2021	
+Dominicanos	4329	Enero a Marzo	2021	
+Extranjeros	282	Enero a Marzo	2021	
+Edad 1 a 17	54	Abril a Junio	2021	
+Edad 18 a 25	1226	Abril a Junio	2021	
+Edad 26 a 30	838	Abril a Junio	2021	
+Edad 31 a 35	656	Abril a Junio	2021	
+Edad 36 a 40	616	Abril a Junio	2021	
+Edad 41 a 45	426	Abril a Junio	2021	
+Edad 46 a 50	332	Abril a Junio	2021	
+Edad 51 a mas	772	Abril a Junio	2021	
+Hombres 	4830	Abril a Junio	2021	
+Mujeres	90	Abril a Junio	2021	
+Dominicanos	4577	Abril a Junio	2021	
+Extranjeros	343	Abril a Junio	2021	
+Edad 1 a 17	74	Julio a Septiembre	2021	
+Edad 18 a 25	1146	Julio a Septiembre	2021	
+Edad 26 a 30	760	Julio a Septiembre	2021	
+Edad 31 a 35	555	Julio a Septiembre	2021	
+Edad 36 a 40	510	Julio a Septiembre	2021	
+Edad 41 a 45	374	Julio a Septiembre	2021	
+Edad 46 a 50	272	Julio a Septiembre	2021	
+Edad 51 a mas	102	Julio a Septiembre	2021	
+Hombres 	4648	Julio a Septiembre	2021	
+Mujeres	72	Julio a Septiembre	2021	
+Dominicanos	4399	Julio a Septiembre	2021	
+Extranjeros	321	Julio a Septiembre	2021	
+Edad 1 a 17	88	Octubre a Diciembre	2021	
+Edad 18 a 25	1214	Octubre a Diciembre	2021	
+Edad 26 a 30	817	Octubre a Diciembre	2021	
+Edad 31 a 35	759	Octubre a Diciembre	2021	
+Edad 36 a 40	590	Octubre a Diciembre	2021	
+Edad 41 a 45	448	Octubre a Diciembre	2021	
+Edad 46 a 50	361	Octubre a Diciembre	2021	
+Edad 51 a mas	1443	Octubre a Diciembre	2021	
+Hombres 	121	Octubre a Diciembre	2021	
+Mujeres	5599	Octubre a Diciembre	2021	
+Dominicanos	5265	Octubre a Diciembre	2021	
+Extranjeros	455	Octubre a Diciembre	2021	
+Edad 1 a 17	75	Enero a Marzo	2022	
+Edad 18 a 25	1480	Enero a Marzo	2022	
+Edad 26 a 30	1103	Enero a Marzo	2022	
+Edad 31 a 35	948	Enero a Marzo	2022	
+Edad 36 a 40	884	Enero a Marzo	2022	
+Edad 41 a 45	546	Enero a Marzo	2022	
+Edad 46 a 50	399	Enero a Marzo	2022	
+Edad 51 a mas	1413	Enero a Marzo	2022	
+Hombres 	6727	Enero a Marzo	2022	
+Mujeres	121	Enero a Marzo	2022	
+Dominicanos	6372	Enero a Marzo	2022	
+Extranjeros	476	Enero a Marzo	2022	
+Edad 1 a 17	89	Abril a Junio	2022	
+Edad 18 a 25	1753	Abril a Junio	2022	
+Edad 26 a 30	1215	Abril a Junio	2022	
+Edad 31 a 35	958	Abril a Junio	2022	
+Edad 36 a 40	857	Abril a Junio	2022	
+Edad 41 a 45	608	Abril a Junio	2022	
+Edad 46 a 50	417	Abril a Junio	2022	
+Edad 51 a mas	1188	Abril a Junio	2022	
+Hombres 	6953	Abril a Junio	2022	
+Mujeres	132	Abril a Junio	2022	
+Dominicanos	6503	Abril a Junio	2022	
+Extranjeros	582	Abril a Junio	2022	
+Edad 1 a 17	104	Julio a Septiembre	2022	
+Edad 18 a 25	1997	Julio a Septiembre	2022	
+Edad 26 a 30	1437	Julio a Septiembre	2022	
+Edad 31 a 35	1151	Julio a Septiembre	2022	
+Edad 36 a 40	1035	Julio a Septiembre	2022	
+Edad 41 a 45	747	Julio a Septiembre	2022	
+Edad 46 a 50	455	Julio a Septiembre	2022	
+Edad 51 a mas	1367	Julio a Septiembre	2022	
+Hombres 	8176	Julio a Septiembre	2022	
+Mujeres	114	Julio a Septiembre	2022	
+Dominicanos	7619	Julio a Septiembre	2022	
+Extranjeros	674	Julio a Septiembre	2022	
+Edad 1 a 17	86	Octubre a Diciembre	2022	
+Edad 18 a 25	2154	Octubre a Diciembre	2022	
+Edad 26 a 30	1567	Octubre a Diciembre	2022	
+Edad 31 a 35	1207	Octubre a Diciembre	2022	
+Edad 36 a 40	1206	Octubre a Diciembre	2022	
+Edad 41 a 45	889	Octubre a Diciembre	2022	
+Edad 46 a 50	518	Octubre a Diciembre	2022	
+Edad 51 a mas	1022	Octubre a Diciembre	2022	
+Hombres 	8495	Octubre a Diciembre	2022	
+Mujeres	154	Octubre a Diciembre	2022	
+Dominicanos	7891	Octubre a Diciembre	2022	
+Extranjeros	758	Octubre a Diciembre	2022	
+Edad 1 a 17	31	Enero a Marzo	2023	
+Edad 18 a 25	645	Enero a Marzo	2023	
+Edad 26 a 30	480	Enero a Marzo	2023	
+Edad 31 a 35	396	Enero a Marzo	2023	
+Edad 36 a 40	290	Enero a Marzo	2023	
+Edad 41 a 45	196	Enero a Marzo	2023	
+Edad 46 a 50	391	Enero a Marzo	2023	
+Edad 51 a mas	391	Enero a Marzo	2023	
+Hombres 	2770	Enero a Marzo	2023	
+Mujeres	40	Enero a Marzo	2023	
+Dominicanos	2599	Enero a Marzo	2023	
+Extranjeros	211	Enero a Marzo	2023	
+Edad 1 a 17	64	Abril a Junio	2023	
+Edad 18 a 25	1.842	Abril a Junio	2023	
+Edad 26 a 30	1.398	Abril a Junio	2023	
+Edad 31 a 35	1.134	Abril a Junio	2023	
+Edad 36 a 40	1.094	Abril a Junio	2023	
+Edad 41 a 45	837	Abril a Junio	2023	
+Edad 46 a 50	545	Abril a Junio	2023	
+Edad 51 a mas	1.162	Abril a Junio	2023	
+Hombres 	7.955	Abril a Junio	2023	
+Mujeres	121	Abril a Junio	2023	
+Dominicanos	7.383	Abril a Junio	2023	
+Extranjeros	693	Abril a Junio	2023	
+Edad 1 a 17	92	Julio a Septiembre	2023	
+Edad 18 a 25	2.151	Julio a Septiembre	2023	
+Edad 26 a 30	1.646	Julio a Septiembre	2023	
+Edad 31 a 35	1.377	Julio a Septiembre	2023	
+Edad 36 a 40	1.168	Julio a Septiembre	2023	
+Edad 41 a 45	933	Julio a Septiembre	2023	
+Edad 46 a 50	603	Julio a Septiembre	2023	
+Edad 51 a mas	1.482	Julio a Septiembre	2023	
+Hombres 	9.323	Julio a Septiembre	2023	
+Mujeres	129	Julio a Septiembre	2023	
+Dominicanos	8.484	Julio a Septiembre	2023	
+Extranjeros	968	Julio a Septiembre	2023	
+Edad 1 a 17	77	Octubre a Diciembre	2023	
+Edad 18 a 25	2.305	Octubre a Diciembre	2023	
+Edad 26 a 30	1.866	Octubre a Diciembre	2023	
+Edad 31 a 35	1.521	Octubre a Diciembre	2023	
+Edad 36 a 40	1.443	Octubre a Diciembre	2023	
+Edad 41 a 45	1.257	Octubre a Diciembre	2023	
+Edad 46 a 50	790	Octubre a Diciembre	2023	
+Edad 51 a mas	2.121	Octubre a Diciembre	2023	
+Hombres 	11.263	Octubre a Diciembre	2023	
+Mujeres	117	Octubre a Diciembre	2023	
+Dominicanos	9.925	Octubre a Diciembre	2023	
+Extranjeros	1.455	Octubre a Diciembre	2023	
+Edad 1 a 17	110	Enero a Marzo	2024	
+Edad 18 a 25	2490	Enero a Marzo	2024	
+Edad 26 a 30	1969	Enero a Marzo	2024	
+Edad 31 a 35	1751	Enero a Marzo	2024	
+Edad 36 a 40	1628	Enero a Marzo	2024	
+Edad 41 a 45	1436	Enero a Marzo	2024	
+Edad 46 a 50	862	Enero a Marzo	2024	
+Edad 51 a mas	2360	Enero a Marzo	2024	
+Hombres 	12481	Enero a Marzo	2024	
+Mujeres	125	Enero a Marzo	2024	
+Dominicanos	11027	Enero a Marzo	2024	
+Extranjeros	1579	Enero a Marzo	2024	
+Edad 1 a 17	86	Abril a Junio	2024	
+Edad 18 a 25	2485	Abril a Junio	2024	
+Edad 26 a 30	2004	Abril a Junio	2024	
+Edad 31 a 35	1774	Abril a Junio	2024	
+Edad 36 a 40	1592	Abril a Junio	2024	
+Edad 41 a 45	1389	Abril a Junio	2024	
+Edad 46 a 50	838	Abril a Junio	2024	
+Edad 51 a mas	1911	Abril a Junio	2024	
+Hombres 	11970	Abril a Junio	2024	
+Mujeres	109	Abril a Junio	2024	
+Dominicanos	10525	Abril a Junio	2024	
+Extranjeros	1554	Abril a Junio	2024	
+Edad 1 a 17	106	Julio a Septiembre	2024	
+Edad 18 a 25	2876	Julio a Septiembre	2024	
+Edad 26 a 30	2159	Julio a Septiembre	2024	
+Edad 31 a 35	1849	Julio a Septiembre	2024	
+Edad 36 a 40	1636	Julio a Septiembre	2024	
+Edad 41 a 45	1462	Julio a Septiembre	2024	
+Edad 46 a 50	990	Julio a Septiembre	2024	
+Edad 51 a mas	1640	Julio a Septiembre	2024	
+Hombres 	12595	Julio a Septiembre	2024	
+Mujeres	123	Julio a Septiembre	2024	
+Dominicanos	11148	Julio a Septiembre	2024	
+Extranjeros	1570	Julio a Septiembre	2024	
+Edad 1 a 17	110	Octubre a Diciembre	2024	
+Edad 18 a 25	2584	Octubre a Diciembre	2024	
+Edad 26 a 30	2022	Octubre a Diciembre	2024	
+Edad 31 a 35	1665	Octubre a Diciembre	2024	
+Edad 36 a 40	1498	Octubre a Diciembre	2024	
+Edad 41 a 45	1251	Octubre a Diciembre	2024	
+Edad 46 a 50	869	Octubre a Diciembre	2024	
+Edad 51 a mas	1562	Octubre a Diciembre	2024	
+Hombres 	11472	Octubre a Diciembre	2024	
+Mujeres	89	Octubre a Diciembre	2024	
+Dominicanos	10045	Octubre a Diciembre	2024	
+Extranjeros	1516	Octubre a Diciembre	2024	
+Edad 1 a 17	111	Enero a Marzo	2025	
+Edad 18 a 25	2598	Enero a Marzo	2025	
+Edad 26 a 30	2165	Enero a Marzo	2025	
+Edad 31 a 35	1851	Enero a Marzo	2025	
+Edad 36 a 40	1607	Enero a Marzo	2025	
+Edad 41 a 45	1411	Enero a Marzo	2025	
+Edad 46 a 50	975	Enero a Marzo	2025	
+Edad 51 a mas	1468	Enero a Marzo	2025	
+Hombres 	12071	Enero a Marzo	2025	
+Mujeres	115	Enero a Marzo	2025	
+Dominicanos	10885	Enero a Marzo	2025	
+Extranjeros	1301	Enero a Marzo	2025	
+Edad 1 a 17	103	Abril a Junio	2025	
+Edad 18 a 25	2,524	Abril a Junio	2025	
+Edad 26 a 30	1972	Abril a Junio	2025	
+Edad 31 a 35	1650	Abril a Junio	2025	
+Edad 36 a 40	1460	Abril a Junio	2025	
+Edad 41 a 45	1355	Abril a Junio	2025	
+Edad 46 a 50	888	Abril a Junio	2025	
+Edad 51 a mas	1621	Abril a Junio	2025	
+Hombres 	11463	Abril a Junio	2025	
+Mujeres	110	Abril a Junio	2025	
+Dominicanos	10179	Abril a Junio	2025	
+Extranjeros	1394	Abril a Junio	2025	

@@ -1,0 +1,230 @@
+Drogas Decomisadas	Unidad de Medida	Cantidad	Mes	Año
+Cocaína 	Kilogramo	2363.3	Enero a Marzo	2017
+Crack 	Gramo	3519.3	Enero a Marzo	2017
+Heroína 	Gramo	8084	Enero a Marzo	2017
+Mariguana 	Kilogramo	1052.8	Enero a Marzo	2017
+Mariguana plantas 	Unidad	32	Enero a Marzo	2017
+Hachís 	Gramo	36.1	Enero a Marzo	2017
+Extasis 	Unidad	14	Enero a Marzo	2017
+Objetos o Sustancias	Kilogramo	182.6	Enero a Marzo	2017
+Objetos o Sustancias	Unidad	20376	Enero a Marzo	2017
+Cocaína 	Kilogramo	3933.8	Abril a Junio	2017
+Crack 	Gramo	3556.5	Abril a Junio	2017
+Heroína 	Gramo	14868.7	Abril a Junio	2017
+Mariguana 	Kilogramo	1133.4	Abril a Junio	2017
+Mariguana plantas 	Unidad	69	Abril a Junio	2017
+Hachís 	Gramo	265.3	Abril a Junio	2017
+Extasis 	Unidad	821	Abril a Junio	2017
+Objetos o Sustancias	Kilogramo	234.7	Abril a Junio	2017
+Objetos o Sustancias	Unidad	5026	Abril a Junio	2017
+Cocaína 	Kilogramo	3570.9	Julio a Septiembre	2017
+Crack 	Gramo	2696.6	Julio a Septiembre	2017
+Heroína 	Gramo	2832.4	Julio a Septiembre	2017
+Mariguana 	Kilogramo	1337.4	Julio a Septiembre	2017
+Mariguana plantas 	Unidad	492	Julio a Septiembre	2017
+Extasis 	Unidad	23	Julio a Septiembre	2017
+Objetos o Sustancias	Kilogramo	257.5	Julio a Septiembre	2017
+Objetos o Sustancias	Unidad	2389	Julio a Septiembre	2017
+Cocaína 	Kilogramo	5854.4	Octubre a Diciembre	2017
+Crack 	Gramo	3494.9	Octubre a Diciembre	2017
+Heroína 	Gramo	2690.2	Octubre a Diciembre	2017
+Mariguana 	Kilogramo	1498.2	Octubre a Diciembre	2017
+Mariguana plantas 	Unidad	40	Octubre a Diciembre	2017
+Extasis 	Unidad	1654	Octubre a Diciembre	2017
+Objetos o Sustancias	Kilogramo	56.6	Octubre a Diciembre	2017
+Objetos o Sustancias	Unidad	1977	Octubre a Diciembre	2017
+Cocaina	Kilogramo	444800	Enero a Marzo	2018
+Heroina	Kilogramo	630	Enero a Marzo	2018
+Marihuana Plantas	Unidad	14	Enero a Marzo	2018
+Crack 	Kilogramo	3283500	Enero a Marzo	2018
+Objetos o Sustancias	Kilogramo	84700	Enero a Marzo	2018
+Objetos o Sustancias	Unidad	26375	Enero a Marzo	2018
+Cocaina	Kilogramo	720700	Abril a Junio	2018
+Heroina	Kilogramo	2158.3	Abril a Junio	2018
+Extasis	Unidad	511	Abril a Junio	2018
+Extasis	Kilogramo	0	Abril a Junio	2018
+Marihuana	Kilogramo	1257500	Abril a Junio	2018
+Marihuana Plantas	Unidad	61	Abril a Junio	2018
+Crack 	Kilogramo	3932.7	Abril a Junio	2018
+Objetos o Sustancias	Kilogramo	603500	Abril a Junio	2018
+Objetos o Sustancias	Unidad	206	Abril a Junio	2018
+Cocaina	Kilogramo	1548000	Julio a Septiembre	2018
+Heroina	Kilogramo	1102.1	Julio a Septiembre	2018
+Extasis	Unidad	305	Julio a Septiembre	2018
+Extasis	Kilogramo	0	Julio a Septiembre	2018
+Marihuana	Kilogramo	1066400	Julio a Septiembre	2018
+Marihuana Plantas	Unidad	222	Julio a Septiembre	2018
+Crack 	Kilogramo	1441.3	Julio a Septiembre	2018
+Objetos o Sustancias	Kilogramo	49900	Julio a Septiembre	2018
+Objetos o Sustancias	Unidad	12	Julio a Septiembre	2018
+Cocaina	Kilogramo	3240950	Octubre a Diciembre	2018
+Marihuana	Kilogramo	438220	Octubre a Diciembre	2018
+Marihuana Plantas	Unidad	49	Octubre a Diciembre	2018
+Crack 	Kilogramo	1.05	Octubre a Diciembre	2018
+Cocaina	Kilogramo	1533541.26	Enero a Marzo	2019
+Heroina	Kilogramo	24.99	Enero a Marzo	2019
+Extasis	Unidad	2300	Enero a Marzo	2019
+Extasis	Kilogramo	0	Enero a Marzo	2019
+Marihuana	Kilogramo	423565.5	Enero a Marzo	2019
+Marihuana Plantas	Unidad	45	Enero a Marzo	2019
+Crack 	Kilogramo	2449486	Enero a Marzo	2019
+Oxidona	Unidad	179	Enero a Marzo	2019
+Opio	Unidad	197	Enero a Marzo	2019
+Tramadol	Unidad	20	Enero a Marzo	2019
+Hachis	Kilogramo	0	Enero a Marzo	2019
+Cocaina	Kilogramo	1541337.81	Abril a Junio	2019
+Heroina	Kilogramo	8.57	Abril a Junio	2019
+Extasis	Unidad	0	Abril a Junio	2019
+Extasis	Kilogramo	0	Abril a Junio	2019
+Marihuana	Kilogramo	548450604	Abril a Junio	2019
+Marihuana Plantas	Unidad	39	Abril a Junio	2019
+Crack 	Kilogramo	1452355	Abril a Junio	2019
+Oxidona	Unidad	386	Abril a Junio	2019
+Opio	Unidad	0	Abril a Junio	2019
+Tramadol	Unidad	0	Abril a Junio	2019
+Hachis	Kilogramo	0	Abril a Junio	2019
+Cocaina	Kilogramo	1791666.35	Julio a Septiembre	2019
+Heroina	Kilogramo	0	Julio a Septiembre	2019
+Extasis	Unidad	1606.64	Julio a Septiembre	2019
+Extasis	Kilogramo	0	Julio a Septiembre	2019
+Marihuana	Kilogramo	801491657	Julio a Septiembre	2019
+Marihuana Plantas	Unidad	414	Julio a Septiembre	2019
+Crack 	Kilogramo	554502	Julio a Septiembre	2019
+Oxidona	Unidad	386	Julio a Septiembre	2019
+Cocaina	Kilogramo	80582.63	Octubre a Diciembre	2019
+Heroina	Kilogramo	151.23	Octubre a Diciembre	2019
+Extasis	Unidad	17378083	Octubre a Diciembre	2019
+Extasis	Kilogramo	0	Octubre a Diciembre	2019
+Marihuana	Kilogramo	168508135	Octubre a Diciembre	2019
+Marihuana Plantas	Unidad	1	Octubre a Diciembre	2019
+Crack 	Kilogramo	1311915	Octubre a Diciembre	2019
+Extasis	Kilogramo	0.32	Enero a Marzo	2020
+Marihuana	Kilogramo	553.42	Enero a Marzo	2020
+Crack 	Kilogramo	2.88	Enero a Marzo	2020
+Tramadol	Unidad	20	Enero a Marzo	2020
+Cocaina	Kilogramo	295.85	Abril a Junio	2020
+Marihuana	Kilogramo	972.53	Abril a Junio	2020
+Crack 	Kilogramo	0.63	Abril a Junio	2020
+Hachis	Kilogramo	0.07	Abril a Junio	2020
+Cocaina	Kilogramo	1756.161	Julio a Septiembre	2020
+Extasis	Kilogramo	0.12	Julio a Septiembre	2020
+Marihuana	Kilogramo	410.37	Julio a Septiembre	2020
+Crack 	Kilogramo	0.38	Julio a Septiembre	2020
+Hachis	Kilogramo	0.81	Julio a Septiembre	2020
+Objetos o Sustancias	Kilogramo	49.42	Julio a Septiembre	2020
+Cocaina	Kilogramo	6046.36	Octubre a Diciembre	2020
+Extasis	Kilogramo	0.22	Octubre a Diciembre	2020
+Marihuana	Unidad	2260	Octubre a Diciembre	2020
+Marihuana	Kilogramo	734.59	Octubre a Diciembre	2020
+Crack 	Kilogramo	2.67	Octubre a Diciembre	2020
+Hachis	Kilogramo	4.36	Octubre a Diciembre	2020
+Opio	Kilogramo	3.4	Octubre a Diciembre	2020
+Objetos o Sustancias	Kilogramo	48.3	Octubre a Diciembre	2020
+Cocaina	Kilogramo	3498.48	Enero a Marzo	2021
+Heroina	Kilogramo	8.2	Enero a Marzo	2021
+Extasis	Kilogramo	0.18	Enero a Marzo	2021
+Marihuana	Kilogramo	943.88	Enero a Marzo	2021
+Crack 	Kilogramo	1.65	Enero a Marzo	2021
+Hachis	Kilogramo	0.25	Enero a Marzo	2021
+Cocaina	Kilogramo	6788.45	Abril a Junio	2021
+Extasis	Kilogramo	0.14	Abril a Junio	2021
+Marihuana	Kilogramo	2040.93	Abril a Junio	2021
+Hachis	Kilogramo	4.24	Abril a Junio	2021
+Crack 	Kilogramo	2.12	Abril a Junio	2021
+Cocaina	Kilogramo	4005.97	Julio a Septiembre	2021
+Extasis	Kilogramo	0.04	Julio a Septiembre	2021
+Marihuana	Kilogramo	599.59	Julio a Septiembre	2021
+Crack 	Kilogramo	2.99	Julio a Septiembre	2021
+Hachis	Kilogramo	1.04	Julio a Septiembre	2021
+Cocaina	Kilogramo	4819.43	Octubre a Diciembre	2021
+Extasis	Kilogramo	2.39	Octubre a Diciembre	2021
+Marihuana	Kilogramo	2139.02	Octubre a Diciembre	2021
+Hachis	Kilogramo	19.6	Octubre a Diciembre	2021
+Crack 	Kilogramo	7.02	Octubre a Diciembre	2021
+Heroina	Kilogramo	0.01	Octubre a Diciembre	2021
+Opio	Kilogramo	0.05	Octubre a Diciembre	2021
+Cocaina	Kilogramo	5951.84	Enero a Marzo	2022
+Extasis	Kilogramo	8	Enero a Marzo	2022
+Marihuana	Kilogramo	1146.62	Enero a Marzo	2022
+Hachis	Kilogramo	0.42	Enero a Marzo	2022
+Crack 	Kilogramo	2.25	Enero a Marzo	2022
+Opio	Kilogramo	0.12	Enero a Marzo	2022
+Cocaina	Kilogramo	10982.68	Abril a Junio	2022
+Extasis	Kilogramo	0.03	Abril a Junio	2022
+Marihuana	Kilogramo	655.31	Abril a Junio	2022
+Hachis	Kilogramo	0.07	Abril a Junio	2022
+Crack 	Kilogramo	1.74	Abril a Junio	2022
+Opio	Kilogramo	0.01	Abril a Junio	2022
+Cocaina	Kilogramo	6392.24	Julio a Septiembre	2022
+Extasis	Kilogramo	2.53	Julio a Septiembre	2022
+Marihuana	Kilogramo	459.16	Julio a Septiembre	2022
+Crack 	Kilogramo	1.72	Julio a Septiembre	2022
+Hachis	Kilogramo	1.08	Julio a Septiembre	2022
+Opio	Kilogramo	0.78	Julio a Septiembre	2022
+Cocaina	Kilogramo	3700.41	Octubre a Diciembre	2022
+Extasis	Kilogramo	0.07	Octubre a Diciembre	2022
+Marihuana	Kilogramo	589.88	Octubre a Diciembre	2022
+Hachis	Kilogramo	0.17	Octubre a Diciembre	2022
+Crack 	Kilogramo	3.64	Octubre a Diciembre	2022
+Heroina	Kilogramo	0.002	Octubre a Diciembre	2022
+Opio	Kilogramo	0.0001	Octubre a Diciembre	2022
+Cocaina	Kilogramo	2821.94	Enero a Marzo	2023
+Extasis	Kilogramo	0.02	Enero a Marzo	2023
+Marihuana	Kilogramo	841.03	Enero a Marzo	2023
+Hachis	Kilogramo	17.32	Enero a Marzo	2023
+Crack 	Kilogramo	4.13	Enero a Marzo	2023
+Opio	Kilogramo	0.87	Enero a Marzo	2023
+Cocaina	Kilogramo	9,401.01	Abril a Junio	2023
+Extasis	Kilogramo	0.2	Abril a Junio	2023
+Marihuana	Kilogramo	1915.02	Abril a Junio	2023
+Hachis	Kilogramo	0.27	Abril a Junio	2023
+Crack 	Kilogramo	28.14	Abril a Junio	2023
+Opio	Kilogramo	19.64	Abril a Junio	2023
+Cocaina	Kilogramo	2063.43	Julio a Septiembre	2023
+extasis	Kilogramo	0.12	Julio a Septiembre	2023
+Marihuana 	Kilogramo	2971.53	Julio a Septiembre	2023
+Hachis	Kilogramo	2.37	Julio a Septiembre	2023
+Crack 	Kilogramo	16.79	Julio a Septiembre	2023
+Opio	Kilogramo	0.01	Julio a Septiembre	2023
+Cocaina	Kilogramo	3618.11	Octubre a Diciembre	2023
+Extasis	Kilogramo	0.09	Octubre a Diciembre	2023
+Marihuana	Kilogramo	828.06	Octubre a Diciembre	2023
+Hachis	Kilogramo	0.06	Octubre a Diciembre	2023
+Crack 	Kilogramo	38.4	Octubre a Diciembre	2023
+Opio	Kilogramo	6.95	Octubre a Diciembre	2023
+Cocaina	Kilogramo	5357.54	Enero a Marzo	2024
+extasis	Kilogramo	0.05	Enero a Marzo	2024
+Marihuana	Unidad	851.7	Enero a Marzo	2024
+Hachis	Kilogramo	0.02	Enero a Marzo	2024
+Crack 	Kilogramo	55.59	Enero a Marzo	2024
+Opio	Kilogramo	23.01	Enero a Marzo	2024
+Cocaina	Kilogramo	3424	Abril a Junio	2024
+extasis	Kilogramo	0.01	Abril a Junio	2024
+Marihuana	Kilogramo	2247	Abril a Junio	2024
+Hachis	Kilogramo	0.46	Abril a Junio	2024
+Crack 	Kilogramo	20.4	Abril a Junio	2024
+Opio	Kilogramo	0.02	Abril a Junio	2024
+Cocaina	Kilogramo	10753.11	Julio a Septiembre	2024
+extasis	Kilogramo	0.53	Julio a Septiembre	2024
+Marihuana	Kilogramo	1227.44	Julio a Septiembre	2024
+Hachis	Kilogramo	0.22	Julio a Septiembre	2024
+Crack 	Kilogramo	44.57	Julio a Septiembre	2024
+Opio	Kilogramo	0	Julio a Septiembre	2024
+Cocaina	Kilogramo	16048.02	Octubre a Diciembre	2024
+extasis	Kilogramo	3.82	Octubre a Diciembre	2024
+Marihuana	Kilogramo	1528.75	Octubre a Diciembre	2024
+Hachis	Kilogramo	0	Octubre a Diciembre	2024
+Crack 	Kilogramo	9.46	Octubre a Diciembre	2024
+Opio	Kilogramo	10.9	Octubre a Diciembre	2024
+Cocaina	Kilogramo	3.329.53	Enero a Marzo	2025
+extasis	Kilogramo	0.03	Enero a Marzo	2025
+Marihuana	Kilogramo	2.184.47	Enero a Marzo	2025
+Hachis	Kilogramo	0.08	Enero a Marzo	2025
+Crack 	Kilogramo	7.42	Enero a Marzo	2025
+Opio	Kilogramo	0.11	Enero a Marzo	2025
+Cocaina	Kilogramo	4598.18	Abril a Junio	2025
+extasis	Kilogramo	0.08	Abril a Junio	2025
+Marihuana	Kilogramo	6087.7	Abril a Junio	2025
+Hachis	Kilogramo	0	Abril a Junio	2025
+Crack 	Kilogramo	14.37	Abril a Junio	2025
+Opio	Kilogramo	0.09	Abril a Junio	2025

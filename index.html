@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costo de la guerra contra las drogas en nuestras fuerzas de seguridad</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-dsv@3"></script>
+</head>
+<body>
+    <header>
+        <h1>Costo de la guerra contra las drogas en nuestras fuerzas de seguridad</h1>
+    </header>
+    <main>
+        <section id="filters">
+            <h2>Filtros Globales</h2>
+            <div class="filter-group">
+                <label for="year-filter">Año:</label>
+                <select id="year-filter"></select>
+                <label for="quarter-filter">Trimestre:</label>
+                <select id="quarter-filter"></select>
+            </div>
+        </section>
+
+        <section id="overview">
+            <h2>Visión General</h2>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <h3>Arrestos Totales</h3>
+                    <p id="total-arrests">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Decomisos Totales (kg)</h3>
+                    <p id="total-seizures">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Casos Judiciales</h3>
+                    <p id="total-cases">0</p>
+                </div>
+            </div>
+            <canvas id="overview-timeline"></canvas>
+        </section>
+
+        <section id="arrests">
+            <h2>Arrestos</h2>
+            <canvas id="arrests-chart"></canvas>
+        </section>
+
+        <section id="seizures">
+            <h2>Drogas Decomisadas</h2>
+            <div id="seizure-filters"></div>
+            <canvas id="seizures-chart"></canvas>
+            <button id="convert-value">Ver equivalencia</button>
+        </section>
+
+        <section id="cases">
+            <h2>Casos Judiciales</h2>
+            <canvas id="cases-chart"></canvas>
+            <div class="table-container">
+                <table id="cases-table">
+                    <thead>
+                        <tr>
+                            <th>Delito</th>
+                            <th>Provincia</th>
+                            <th>Cantidad</th>
+                            <th>Mes</th>
+                            <th>Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="social-cost">
+            <h2>Costo Social y Seguridad</h2>
+            <div id="sankey-diagram"></div>
+        </section>
+    </main>
+    <footer>
+        <button id="export-png">Exportar a PNG</button>
+        <button id="export-csv">Exportar a CSV</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

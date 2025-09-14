@@ -88,6 +88,13 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Seizures Data:', seizuresData);
         console.log('Cases Data:', casesData);
 
+        // Correct typo in 'Period' for arrestsData
+        arrestsData.forEach(entry => {
+            if (entry.Period === 'Octubre a Diembre') {
+                entry.Period = 'Octubre a Diciembre';
+            }
+        });
+
         populateFilters();
         updateDashboard();
     }
@@ -145,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update charts
         updateOverview();
-        updateArrestsChart();
+        updateArrestsChart(isAllQuarters); // Pass isAllQuarters here
         updateSeizuresChart();
         updateCasesChart(isAllQuarters); // Pass isAllQuarters to updateCasesChart
         updateCasesTable(isAllQuarters); // Pass isAllQuarters to updateCasesTable
@@ -223,13 +230,20 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function updateArrestsChart() {
+    function updateArrestsChart(isAllQuarters) { // Accept isAllQuarters as a parameter
         const selectedYear = document.getElementById('year-filter').value;
-        const selectedQuarter = document.getElementById('quarter-filter').value;
         const isAllYears = selectedYear === 'all';
 
-        const filteredArrests = (isAllYears ? arrestsData : arrestsData.filter(d => d.Year == selectedYear))
-            .filter(d => d.Period == selectedQuarter);
+        // Filter by year
+        let filteredArrests = isAllYears ? arrestsData : arrestsData.filter(d => d.Year == selectedYear);
+
+        // Filter by quarter only if isAllQuarters is false
+        if (!isAllQuarters) {
+            const selectedQuarter = document.getElementById('quarter-filter').value; // Fetch only when needed
+            filteredArrests = filteredArrests.filter(d => d.Period == selectedQuarter);
+        } else {
+            console.log('Skipping quarter filter for arrests chart as isAllQuarters is true.');
+        }
 
         const ageGroups = filteredArrests.filter(d => d.Category.startsWith('Edad'));
         const sexGroups = filteredArrests.filter(d => ['Hombres', 'Mujeres'].includes(d.Category));
@@ -430,90 +444,109 @@ document.addEventListener('DOMContentLoaded', () => {
         // Generate a consistent set of colors for the current page's data
         const itemColors = paginatedCrimes.map(() => getRandomColor());
 
-        const ctx = document.getElementById('cases-chart').getContext('2d');
-        if (casesChart) {
-            casesChart.destroy();
-        }
-        casesChart = new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: labels,
-                datasets: [{
-                    label: isAllYears ? 'Casos Judiciales (Todos los años)' : `Casos Judiciales (${selectedYear})`,
-                    data: data,
-                    backgroundColor: itemColors, // Use the generated array
-                    borderColor: itemColors.map(color => color.replace('0.5', '1')), // Darker version for border from the same array
-                    borderWidth: 1
-                }]
-            },
-            options: {
-                indexAxis: 'y',
-                responsive: true,
-                scales: {
-                    x: {
-                        beginAtZero: true,
-                        title: {
-                            display: true,
-                            text: 'Cantidad'
+        // --- NEW LOGIC START ---
+        const messageDiv = document.getElementById('cases-message'); // Use the correct message div
+        const canvasChart = document.getElementById('cases-chart');
+        const paginationChart = document.getElementById('cases-chart-pagination');
+
+        if (relevantCases.length === 0) { // Simplified condition: if no cases, show message
+            if (messageDiv) {
+                messageDiv.textContent = "Estos datos solo existen por año, seleccionar todo el año para consultarlos";
+                messageDiv.style.display = 'block';
+            }
+            if (canvasChart) canvasChart.style.display = 'none';
+            if (paginationChart) paginationChart.style.display = 'none';
+        } else {
+            if (messageDiv) messageDiv.style.display = 'none'; // Hide message if data exists
+            if (canvasChart) canvasChart.style.display = 'block';
+            if (paginationChart) paginationChart.style.display = 'block';
+
+            // --- ORIGINAL CHART RENDERING LOGIC START ---
+            const ctx = document.getElementById('cases-chart').getContext('2d');
+            if (casesChart) {
+                casesChart.destroy();
+            }
+            casesChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: isAllYears ? 'Casos Judiciales (Todos los años)' : `Casos Judiciales (${selectedYear})`,
+                        data: data,
+                        backgroundColor: itemColors, // Use the generated array
+                        borderColor: itemColors.map(color => color.replace('0.5', '1')), // Darker version for border from the same array
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    indexAxis: 'y',
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Cantidad'
+                            }
+                        },
+                        y: {
+                            // No stacking needed if we show only one dataset (the current page)
                         }
                     },
-                    y: {
-                        // No stacking needed if we only show one dataset (the current page)
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: true // Show legend for the dataset label
+                    plugins: {
+                        legend: {
+                            display: true // Show legend for the dataset label
+                        }
                     }
                 }
+            });
+
+            // --- Pagination Controls for Chart ---
+            const paginationContainerChart = document.getElementById('cases-chart-pagination');
+            if (!paginationContainerChart) {
+                console.warn("Pagination container for cases chart not found. Please add an element with id 'cases-chart-pagination'.");
+                return; // Exit if container not found
             }
-        });
+            paginationContainerChart.innerHTML = ''; // Clear previous pagination controls
 
-        // --- Pagination Controls for Chart ---
-        // Assuming HTML elements with IDs like 'cases-chart-pagination' exist
-        const paginationContainerChart = document.getElementById('cases-chart-pagination');
-        if (!paginationContainerChart) {
-            console.warn("Pagination container for cases chart not found. Please add an element with id 'cases-chart-pagination'.");
-            return; // Exit if container not found
-        }
-        paginationContainerChart.innerHTML = ''; // Clear previous pagination controls
-
-        // Previous button
-        const prevButtonChart = document.createElement('button');
-        prevButtonChart.textContent = 'Anterior';
-        prevButtonChart.disabled = currentCasesChartPage === 1;
-        prevButtonChart.addEventListener('click', () => {
-            currentCasesChartPage--;
-            updateCasesChart(isAllQuarters); // Pass isAllQuarters
-        });
-        paginationContainerChart.appendChild(prevButtonChart);
-
-        // Page numbers
-        for (let i = 1; i <= totalPagesChart; i++) {
-            const pageButton = document.createElement('button');
-            pageButton.textContent = i;
-            pageButton.disabled = i === currentCasesChartPage;
-            pageButton.addEventListener('click', () => {
-                currentCasesChartPage = i;
+            // Previous button
+            const prevButtonChart = document.createElement('button');
+            prevButtonChart.textContent = 'Anterior';
+            prevButtonChart.disabled = currentCasesChartPage === 1;
+            prevButtonChart.addEventListener('click', () => {
+                currentCasesChartPage--;
                 updateCasesChart(isAllQuarters); // Pass isAllQuarters
             });
-            paginationContainerChart.appendChild(pageButton);
+            paginationContainerChart.appendChild(prevButtonChart);
+
+            // Page numbers
+            for (let i = 1; i <= totalPagesChart; i++) {
+                const pageButton = document.createElement('button');
+                pageButton.textContent = i;
+                pageButton.disabled = i === currentCasesChartPage;
+                pageButton.addEventListener('click', () => {
+                    currentCasesChartPage = i;
+                    updateCasesChart(isAllQuarters); // Pass isAllQuarters
+                });
+                paginationContainerChart.appendChild(pageButton);
+            }
+
+            // Next button
+            const nextButtonChart = document.createElement('button');
+            nextButtonChart.textContent = 'Siguiente';
+            nextButtonChart.disabled = currentCasesChartPage === totalPagesChart;
+            nextButtonChart.addEventListener('click', () => {
+                currentCasesChartPage++;
+                updateCasesChart(isAllQuarters); // Pass isAllQuarters
+            });
+            paginationContainerChart.appendChild(nextButtonChart);
+
+            // Display current page info
+            const pageInfoChart = document.createElement('span');
+            pageInfoChart.textContent = ` Página ${currentCasesChartPage} de ${totalPagesChart}`;
+            paginationContainerChart.appendChild(pageInfoChart);
+            // --- ORIGINAL CHART RENDERING LOGIC END ---
         }
-
-        // Next button
-        const nextButtonChart = document.createElement('button');
-        nextButtonChart.textContent = 'Siguiente';
-        nextButtonChart.disabled = currentCasesChartPage === totalPagesTable;
-        nextButtonChart.addEventListener('click', () => {
-            currentCasesChartPage++;
-            updateCasesChart(isAllQuarters); // Pass isAllQuarters
-        });
-        paginationContainerChart.appendChild(nextButtonChart);
-
-        // Display current page info
-        const pageInfoChart = document.createElement('span');
-        pageInfoChart.textContent = ` Página ${currentCasesChartPage} de ${totalPagesChart}`;
-        paginationContainerChart.appendChild(pageInfoChart);
     }
 
     // --- MODIFIED FUNCTION: updateCasesTable ---
@@ -521,7 +554,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedYear = document.getElementById('year-filter').value;
         const isAllYears = selectedYear === 'all';
         const tableBody = document.getElementById('cases-table').querySelector('tbody');
-        tableBody.innerHTML = ''; // Clear existing rows
+        // tableBody.innerHTML = ''; // This will be handled by showing/hiding the message div
 
         const yearToFilter = isAllYears ? null : parseInt(selectedYear, 10);
         
@@ -541,82 +574,100 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('Skipping quarter filter as isAllQuarters is true.');
         }
 
-        // Sort cases by quantity in descending order
-        filteredCases.sort((a, b) => b.quantity - a.quantity);
+        // --- NEW LOGIC START ---
+        const casesMessageDiv = document.getElementById('cases-message'); // Use the correct message div
+        const tablePagination = document.getElementById('cases-table-pagination');
 
-        // Calculate pagination
-        const totalPagesTable = Math.ceil(filteredCases.length / ITEMS_PER_PAGE_TABLE);
-        const startIndexTable = (currentCasesTablePage - 1) * ITEMS_PER_PAGE_TABLE;
-        const endIndexTable = startIndexTable + ITEMS_PER_PAGE_TABLE;
-        const paginatedCases = filteredCases.slice(startIndexTable, endIndexTable);
+        // Clear previous content and hide message initially
+        tableBody.innerHTML = '';
+        if (casesMessageDiv) casesMessageDiv.style.display = 'none';
 
-        // Populate table with paginated data
-        paginatedCases.forEach(d => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
-                <td>${d.crime}</td>
-                <td>${d.province}</td>
-                <td>${d.quantity}</td>
-                <td>${d.month}</td>
-                <td>${d.year}</td>
-            `;
-            tableBody.appendChild(row);
-        });
+        if (filteredCases.length === 0) {
+            // Display message if no data is found for the selected filters
+            if (casesMessageDiv) {
+                casesMessageDiv.textContent = "Estos datos solo existen por año, seleccionar todo el año para consultarlos";
+                casesMessageDiv.style.display = 'block';
+            }
+            // Hide pagination if no data
+            if (tablePagination) tablePagination.style.display = 'none';
+        } else {
+            // Populate table with data if available
+            // Sort cases by quantity in descending order
+            filteredCases.sort((a, b) => b.quantity - a.quantity);
 
-        console.log('_filteredCases: ', filteredCases);
-        
+            // Calculate pagination
+            const totalPagesTable = Math.ceil(filteredCases.length / ITEMS_PER_PAGE_TABLE);
+            const startIndexTable = (currentCasesTablePage - 1) * ITEMS_PER_PAGE_TABLE;
+            const endIndexTable = startIndexTable + ITEMS_PER_PAGE_TABLE;
+            const paginatedCases = filteredCases.slice(startIndexTable, endIndexTable);
 
-        // --- Pagination Controls for Table ---
-        // Assuming HTML elements with IDs like 'cases-table-pagination' exist
-        const paginationContainer = document.getElementById('cases-table-pagination');
-        if (!paginationContainer) {
-            console.warn("Pagination container for cases table not found. Please add an element with id 'cases-table-pagination'.");
-            return; // Exit if container not found
-        }
-        paginationContainer.innerHTML = ''; // Clear previous pagination controls
+            // Populate table with paginated data
+            paginatedCases.forEach(d => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${d.crime}</td>
+                    <td>${d.province}</td>
+                    <td>${d.quantity}</td>
+                    <td>${d.month}</td>
+                    <td>${d.year}</td>
+                `;
+                tableBody.appendChild(row);
+            });
 
-        // Previous button
-        const prevButton = document.createElement('button');
-        prevButton.textContent = 'Anterior';
-        prevButton.disabled = currentCasesTablePage === 1;
-        prevButton.addEventListener('click', () => {
-            currentCasesChartPage = 1; // Reset chart page when table pagination changes
-            currentCasesTablePage--;
-            updateCasesTable(isAllQuarters); // Pass isAllQuarters to updateCasesTable
-            updateCasesChart(isAllQuarters); // Re-render chart to ensure consistency if needed, passing isAllQuarters
-        });
-        paginationContainer.appendChild(prevButton);
+            console.log('_filteredCases: ', filteredCases);
+            
+            // --- Pagination Controls for Table ---
+            const paginationContainer = document.getElementById('cases-table-pagination');
+            if (!paginationContainer) {
+                console.warn("Pagination container for cases table not found. Please add an element with id 'cases-table-pagination'.");
+                return; // Exit if container not found
+            }
+            paginationContainer.innerHTML = ''; // Clear previous pagination controls
 
-        // Page numbers
-        for (let i = 1; i <= totalPagesTable; i++) {
-            const pageButton = document.createElement('button');
-            pageButton.textContent = i;
-            pageButton.disabled = i === currentCasesTablePage;
-            pageButton.addEventListener('click', () => {
-                currentCasesChartPage = 1; // Reset chart page when table pagination changes
+            // Previous button
+            const prevButton = document.createElement('button');
+            prevButton.textContent = 'Anterior';
+            prevButton.disabled = currentCasesTablePage === 1;
+            prevButton.addEventListener('click', () => {
+                currentCasesTablePage = 1; // Corrected: reset table page, not chart page
+                currentCasesTablePage--;
+                updateCasesTable(isAllQuarters); // Pass isAllQuarters to updateCasesTable
+                updateCasesChart(isAllQuarters); // Re-render chart to ensure consistency if needed, passing isAllQuarters
+            });
+            paginationContainer.appendChild(prevButton);
+
+            // Page numbers
+            for (let i = 1; i <= totalPagesTable; i++) {
+                const pageButton = document.createElement('button');
+                pageButton.textContent = i;
+                pageButton.disabled = i === currentCasesTablePage;
+                pageButton.addEventListener('click', () => {
+                currentCasesTablePage = 1; // Reset chart page when table pagination changes
                 currentCasesTablePage = i;
+                updateCasesTable(isAllQuarters); // Pass isAllQuarters
+                    updateCasesChart(isAllQuarters); // Pass isAllQuarters
+                });
+                paginationContainer.appendChild(pageButton);
+            }
+
+            // Next button
+            const nextButton = document.createElement('button');
+            nextButton.textContent = 'Siguiente';
+            nextButton.disabled = currentCasesTablePage === totalPagesTable;
+            nextButton.addEventListener('click', () => {
+                currentCasesTablePage = 1; // Corrected: reset table page, not chart page
+                currentCasesTablePage++;
                 updateCasesTable(isAllQuarters); // Pass isAllQuarters
                 updateCasesChart(isAllQuarters); // Pass isAllQuarters
             });
-            paginationContainer.appendChild(pageButton);
+            paginationContainer.appendChild(nextButton);
+
+            // Display current page info
+            const pageInfo = document.createElement('span');
+            pageInfo.textContent = ` Página ${currentCasesTablePage} de ${totalPagesTable}`;
+            paginationContainer.appendChild(pageInfo);
+            // --- ORIGINAL TABLE RENDERING LOGIC END ---
         }
-
-        // Next button
-        const nextButton = document.createElement('button');
-        nextButton.textContent = 'Siguiente';
-        nextButton.disabled = currentCasesTablePage === totalPagesTable;
-        nextButton.addEventListener('click', () => {
-            currentCasesChartPage = 1; // Reset chart page when table pagination changes
-            currentCasesTablePage++;
-            updateCasesTable(isAllQuarters); // Pass isAllQuarters
-            updateCasesChart(isAllQuarters); // Pass isAllQuarters
-        });
-        paginationContainer.appendChild(nextButton);
-
-        // Display current page info
-        const pageInfo = document.createElement('span');
-        pageInfo.textContent = ` Página ${currentCasesTablePage} de ${totalPagesTable}`;
-        paginationContainer.appendChild(pageInfo);
     }
 
     function updateSocialCost() {
